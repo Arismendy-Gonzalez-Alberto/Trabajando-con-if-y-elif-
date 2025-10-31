@@ -1,10 +1,10 @@
-anio = int(input("Ingrese un año: "))
+a = int(input("Ingrese un año: "))
 
-if anio < 0:
+if a < 0:
     print("El Año invalido")
     print("Tiene que ser un número positivo")
     
-if anio % 4 == 0 and anio % 100 != 0 or anio % 400 == 0:
-    print(f"El año {anio} es bisiesto")
+elif a % 4 == 0 and a % 100 != 0 or a % 400 == 0:
+    print(f"El año {a} es bisiesto")
 else:
-    print(f"El año {anio} no es bisiesto")
+    print(f"El año {a} no es bisiesto")
