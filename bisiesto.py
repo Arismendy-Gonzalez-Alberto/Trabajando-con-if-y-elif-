@@ -2,6 +2,7 @@ anio = int(input("Ingrese un año: "))
 
 if anio < 0:
     print("El Año invalido")
+    print("Tiene que ser un número positivo")
     
 if anio % 4 == 0 and anio % 100 != 0 or anio % 400 == 0:
     print("Es bisiesto")
